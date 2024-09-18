@@ -1,0 +1,178 @@
+/* UNIVERSAL STYLES */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.main-content {
+    position: relative;
+    top: 5.3125rem; /* To offset for fixed header. */
+    left: 0rem;
+    right: 0rem;
+  }
+
+.image-container {
+    overflow: none;
+  }
+  
+.image-container img {
+    display: inline-flex;
+    max-width: 100%;
+}
+
+h2 {
+    color: rgb(243, 190, 14);
+    padding: 1rem 0;
+}
+table {
+    border-collapse: collapse;
+    padding-top: 2rem;
+}
+
+table td{
+    border-bottom: solid 1px #1f2127;
+    text-align: left;
+    padding: 0.90rem;
+}
+
+th {
+    font-weight: 800;
+    border-bottom: solid 2px #1f2127;
+    text-align: left;
+}
+
+/* HEADER */
+
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    background-color: #333333;
+    border-bottom: solid 0.25rem rgb(243, 190, 14);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem rgba(172, 143, 47, 0.616);
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+  }
+
+header .logo {
+    flex: 1;
+    text-decoration: none;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-left: 3rem;
+    font-weight:lighter;
+    color: rgb(243, 190, 14);
+    font-family: Roboto;
+    font-weight: lighter;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    vertical-align: bottom;
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    font-size: 1rem;
+    padding: 0 1rem;
+    color: rgb(243, 190, 14);
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+nav a:hover {
+    background-color:#5c5123;
+    padding-block: 0.5rem;
+}
+
+/* BIO SECTION */
+
+#bio {
+    margin: 5rem auto;
+    width: 60%;
+    line-height: 2rem;
+    font-weight: lighter;
+    color: #56595e;
+    font-family: Calibri;
+}
+
+#bio .bio-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    vertical-align: text-top;
+    border: solid 0.10rem rgb(243, 190, 14);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem rgba(172, 143, 47, 0.616);
+}
+
+#bio img {
+    max-width: 100%;
+    width: 7rem;
+    margin: 0 1rem 0 0;
+    border: solid 0.10rem rgb(243, 190, 14);
+    box-shadow: 0rem 0.1rem 0.2rem 0.1rem rgba(172, 143, 47, 0.616);
+}
+
+#bio p {
+    padding: 1rem;
+}
+
+
+/* EDUCATION SECTION */
+
+#education {
+    margin: 5rem auto;
+    width: 60%;
+    line-height: 2rem;
+    font-weight: lighter;
+    color: #56595e;
+    font-family: Calibri;
+}
+
+
+/* EMPLOYMENT HISTORY */
+
+#employment-history {
+    margin: 10rem auto;
+    width: 60%;
+    line-height: 2rem;
+    font-weight: lighter;
+    color: #56595e;
+    font-family: Calibri;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: #333333;
+    margin-top: 4rem;
+}
+
+footer p {
+    font-family: Calibri;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: left;
+    color: rgb(243, 190, 14);
+    padding-left: 5rem;
+}
+
+
